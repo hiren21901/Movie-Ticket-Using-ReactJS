@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* --------------------------------------header css-------------------------------------- */
+
+.backgroundcolor{
+
+  background-color: black;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: .5rem;
+  padding-left: 20px;
+}
+
+.menu-1 .menu li a{
+color: #e9eeff;
+font-size: 16px;
+font-weight: 500;
+text-transform: uppercase;
+padding: 5px;
+}
+
+.menu-1 .menu li {
+  position: relative;
+  /* margin-top: 5px; */
+}
+
+.menu-1 .menu .submenu li a{
+  position: absolute;
+  font-size: 5px;
+  padding: 5px 15px;
+  /* margin:; */
+  text-decoration: none;
+}
+
+/* ------------------personal CSS---------------- */
+
+.movies{
+  margin: 0px 7px 0px 0px;
+  padding: 0px 0px 0px 5px;
+}
+
+.series{
+  margin: 0px 7px 0px 0px;
+  padding: 0px 0px 0px 5px;
+}
